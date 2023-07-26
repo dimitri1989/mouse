@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Mouse-events{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    background-color:red;
+    z-index: 30;
+}
+.Mouse-events4{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    background-color:rgb(0, 0, 0);
+    z-index: 30;
+}
+.Mouse-events3{
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    border-radius:10px;
+    background-color:rgb(124, 211, 24);
+    z-index: 30;
+}
+
+.Mouse-events2{
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 100px;
+    border-color: transparent transparent #007bff transparent;
+    z-index: 30;
+}
+.text {
+    font-size: 40px;
+    color:blue;
+    position: relative;
+    z-index: 0;
+}
+
